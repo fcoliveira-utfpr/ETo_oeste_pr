@@ -1,0 +1,11 @@
+municipio,cod_ibge,sigla,lat,lon,alt_m,koppen,observacao
+Cascavel,4104808,CAS,-25.0277,-53.3796,712,Cfa,
+Foz do Iguaçu,4108304,FOZ,-25.4708,-54.4824,275,Cfa,coordenada usada na análise situa-se em Santa Terezinha de Itaipu (mesma célula MERRA-2 de Foz do Iguaçu)
+Guaíra,4108809,GUA,-24.1915,-54.2277,275,Cfa,
+Marechal Cândido Rondon,4114609,MCR,-24.5717,-54.1389,327,Cfa,
+Matelândia,4115606,MAT,-25.3509,-53.9061,324,Cfa,
+Medianeira,4115804,MED,-25.2632,-54.0919,401,Cfa,
+Santa Helena,4123501,SHE,-24.8872,-54.3062,238,Cfa,
+São Miguel do Iguaçu,4125704,SMI,-25.3882,-54.2619,299,Cfa,
+São Pedro do Iguaçu,4125753,SPI,-24.9065,-53.8908,517,Cfa,
+Toledo,4127700,TOL,-24.7048,-53.778,524,Cfa,

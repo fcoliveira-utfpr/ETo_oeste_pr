@@ -1,0 +1,72 @@
+{
+  "periodo": "01/01/1995 a 31/12/2025",
+  "dias_por_municipio": 11323,
+  "series_met_independentes": 8,
+  "grupos_met": [
+    [
+      "Cascavel"
+    ],
+    [
+      "Foz do Iguaçu",
+      "Medianeira",
+      "São Miguel do Iguaçu"
+    ],
+    [
+      "Guaíra"
+    ],
+    [
+      "Marechal Cândido Rondon"
+    ],
+    [
+      "Matelândia"
+    ],
+    [
+      "Santa Helena"
+    ],
+    [
+      "São Pedro do Iguaçu"
+    ],
+    [
+      "Toledo"
+    ]
+  ],
+  "grupos_rad": [
+    [
+      "Cascavel",
+      "Matelândia"
+    ],
+    [
+      "Foz do Iguaçu",
+      "Medianeira",
+      "São Miguel do Iguaçu"
+    ],
+    [
+      "Guaíra",
+      "Marechal Cândido Rondon",
+      "Santa Helena"
+    ],
+    [
+      "São Pedro do Iguaçu",
+      "Toledo"
+    ]
+  ],
+  "dias_Rs_maior_Rso_pct": 0.7727634019252848,
+  "Ra_astro_menos_POWER": 0.30091141643779273,
+  "F_camargo": {
+    "Cascavel": 0.01,
+    "Foz do Iguaçu": 0.01,
+    "Guaíra": 0.01,
+    "Marechal Cândido Rondon": 0.01,
+    "Matelândia": 0.01,
+    "Medianeira": 0.01,
+    "Santa Helena": 0.01,
+    "São Miguel do Iguaçu": 0.01,
+    "São Pedro do Iguaçu": 0.01,
+    "Toledo": 0.01
+  },
+  "gradiente_Tmed_C_100m_regressao": -0.5831849271014732,
+  "r_Tmed_Alt": -0.856296842480987,
+  "ETo_media_regional": 3.680569606530077,
+  "ETo_anual_regional": 1344.3577307980665,
+  "frac_aero_regional": 0.2787951753715904
+}

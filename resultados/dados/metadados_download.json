@@ -1,0 +1,172 @@
+{
+  "Cascavel": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 612.33,
+    "acesso": "2026-10-14 11:35"
+  },
+  "Foz do Iguaçu": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 247.46,
+    "acesso": "2026-10-14 11:35"
+  },
+  "Guaíra": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 284.96,
+    "acesso": "2026-10-14 11:35"
+  },
+  "Marechal Cândido Rondon": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 275.67,
+    "acesso": "2026-10-14 11:35"
+  },
+  "Matelândia": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 397.26,
+    "acesso": "2026-10-14 11:36"
+  },
+  "Medianeira": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SRB",
+      "SYN1DEG",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 247.46,
+    "acesso": "2026-10-14 11:36"
+  },
+  "Santa Helena": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SRB",
+      "SYN1DEG",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 257.01,
+    "acesso": "2026-10-14 11:36"
+  },
+  "São Miguel do Iguaçu": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 247.46,
+    "acesso": "2026-10-14 11:36"
+  },
+  "São Pedro do Iguaçu": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 523.8,
+    "acesso": "2026-10-14 11:36"
+  },
+  "Toledo": {
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "fontes": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "mensagens": [
+      "Corrected Wind Speed has a custom surface implemented: Airport: flat rough grass (airportgrass)"
+    ],
+    "elev_grade_m": 430.2,
+    "acesso": "2026-10-14 11:36"
+  }
+}

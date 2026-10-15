@@ -1,0 +1,9 @@
+agrometeorologiapy==0.3.0
+numpy
+pandas
+scipy
+matplotlib
+geopandas
+requests
+pyarrow
+jupyter

@@ -1,0 +1,55 @@
+Metodo,Indice,Preditor,Amostra,n,r,p_r,rho,p_rho
+Tur,c,u2,todas,8,-0.9527,0.0003,-0.9524,0.0003
+Tur,c,u2,sem as 2 mais ventosas,6,-0.9604,0.0023,-0.9429,0.0048
+Tur,c,frac_aero,todas,8,-0.8951,0.0027,-0.8333,0.0102
+Tur,NSE,u2,todas,8,-0.8897,0.0031,-0.9762,0.0000
+Tur,NSE,u2,sem as 2 mais ventosas,6,-0.8809,0.0204,-0.9429,0.0048
+Tur,NSE,frac_aero,todas,8,-0.8110,0.0146,-0.9286,0.0009
+Tur,Vies,u2,todas,8,-0.8218,0.0123,-0.7143,0.0465
+Tur,Vies,u2,sem as 2 mais ventosas,6,-0.7466,0.0882,-0.6000,0.2080
+Tur,Vies,frac_aero,todas,8,-0.9716,0.0001,-0.9524,0.0003
+PT,c,u2,todas,8,-0.3739,0.3616,-0.1667,0.6932
+PT,c,u2,sem as 2 mais ventosas,6,-0.5070,0.3047,-0.6000,0.2080
+PT,c,frac_aero,todas,8,-0.0566,0.8941,0.1429,0.7358
+PT,NSE,u2,todas,8,0.4851,0.2231,0.3095,0.4556
+PT,NSE,u2,sem as 2 mais ventosas,6,0.5024,0.3098,0.2571,0.6228
+PT,NSE,frac_aero,todas,8,0.7837,0.0214,0.6429,0.0856
+PT,Vies,u2,todas,8,-0.7581,0.0293,-0.7857,0.0208
+PT,Vies,u2,sem as 2 mais ventosas,6,-0.6706,0.1449,-0.6000,0.2080
+PT,Vies,frac_aero,todas,8,-0.9539,0.0002,-0.9762,0.0000
+Mak,c,u2,todas,8,-0.9041,0.0021,-0.8333,0.0102
+Mak,c,u2,sem as 2 mais ventosas,6,-0.8260,0.0428,-0.6000,0.2080
+Mak,c,frac_aero,todas,8,-0.9831,0.0000,-0.9524,0.0003
+Mak,NSE,u2,todas,8,-0.8335,0.0101,-0.7857,0.0208
+Mak,NSE,u2,sem as 2 mais ventosas,6,-0.7421,0.0912,-0.6000,0.2080
+Mak,NSE,frac_aero,todas,8,-0.9740,0.0000,-0.9762,0.0000
+Mak,Vies,u2,todas,8,-0.7474,0.0331,-0.7143,0.0465
+Mak,Vies,u2,sem as 2 mais ventosas,6,-0.6644,0.1500,-0.6000,0.2080
+Mak,Vies,frac_aero,todas,8,-0.9457,0.0004,-0.9524,0.0003
+HS,c,u2,todas,8,0.1347,0.7504,-0.1190,0.7789
+HS,c,u2,sem as 2 mais ventosas,6,0.3856,0.4503,0.1429,0.7872
+HS,c,frac_aero,todas,8,0.0777,0.8549,-0.2619,0.5309
+HS,NSE,u2,todas,8,0.4173,0.3037,0.4048,0.3199
+HS,NSE,u2,sem as 2 mais ventosas,6,0.4619,0.3564,0.4286,0.3965
+HS,NSE,frac_aero,todas,8,0.5932,0.1211,0.5714,0.1390
+HS,Vies,u2,todas,8,-0.5142,0.1923,-0.5952,0.1195
+HS,Vies,u2,sem as 2 mais ventosas,6,-0.3698,0.4706,-0.3714,0.4685
+HS,Vies,frac_aero,todas,8,-0.7289,0.0402,-0.7619,0.0280
+GHS,c,u2,todas,8,0.5642,0.1452,0.5476,0.1600
+GHS,c,u2,sem as 2 mais ventosas,6,0.4595,0.3593,0.2571,0.6228
+GHS,c,frac_aero,todas,8,0.8371,0.0095,0.8095,0.0149
+GHS,NSE,u2,todas,8,0.5309,0.1757,0.4762,0.2329
+GHS,NSE,u2,sem as 2 mais ventosas,6,0.4281,0.3971,0.2571,0.6228
+GHS,NSE,frac_aero,todas,8,0.8071,0.0155,0.7857,0.0208
+GHS,Vies,u2,todas,8,-0.5044,0.2025,-0.3810,0.3518
+GHS,Vies,u2,sem as 2 mais ventosas,6,-0.3759,0.4628,-0.0286,0.9572
+GHS,Vies,frac_aero,todas,8,-0.7482,0.0327,-0.7143,0.0465
+Cam,c,u2,todas,8,-0.2488,0.5525,-0.2381,0.5702
+Cam,c,u2,sem as 2 mais ventosas,6,-0.2464,0.6379,-0.4857,0.3287
+Cam,c,frac_aero,todas,8,0.1019,0.8102,0.0476,0.9108
+Cam,NSE,u2,todas,8,-0.6724,0.0677,-0.7381,0.0366
+Cam,NSE,u2,sem as 2 mais ventosas,6,-0.6387,0.1722,-0.7143,0.1108
+Cam,NSE,frac_aero,todas,8,-0.3580,0.3839,-0.5238,0.1827
+Cam,Vies,u2,todas,8,-0.9886,0.0000,-1.0000,0.0000
+Cam,Vies,u2,sem as 2 mais ventosas,6,-0.9861,0.0003,-1.0000,0.0000
+Cam,Vies,frac_aero,todas,8,-0.9137,0.0015,-0.8571,0.0065

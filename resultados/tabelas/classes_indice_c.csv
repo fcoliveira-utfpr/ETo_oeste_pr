@@ -1,0 +1,8 @@
+c_minimo,c_maximo,desempenho
+">0,85","1,00",Ótimo
+"0,76","0,85",Muito bom
+"0,66","0,75",Bom
+"0,61","0,65",Mediano
+"0,51","0,60",Sofrível
+"0,41","0,50",Mau
+"<=0,40","0,40",Péssimo
