@@ -1,43 +1,41 @@
-# ETo no oeste do Paraná com dados NASA/POWER
+# ETo in western Paraná with NASA/POWER data
 
-![Visitas](https://visitor-badge.laobi.icu/badge?page_id=fcoliveira-utfpr.ETo_oeste_pr&left_text=visitas)
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fcoliveira-utfpr/ETo_oeste_pr/blob/main/analise_RBIC.ipynb)
+![Visits](https://visitor-badge.laobi.icu/badge?page_id=fcoliveira-utfpr.ETo_oeste_pr&left_text=visits)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fcoliveira-utfpr/ETo_oeste_pr/blob/main/analise_RBIC.ipynb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![agrometeorologiapy](https://img.shields.io/badge/agrometeorologiapy-0.3.0-green)
 
-Dados, código e resultados do artigo **"Desempenho de métodos alternativos de estimativa da evapotranspiração de
-referência com dados NASA/POWER no oeste do Paraná"**, de Alexandre Luis Alegretti e Fabrício Correia de Oliveira
-(Universidade Tecnológica Federal do Paraná, Câmpus Santa Helena).
+Data, code, and results for the article **"Performance of alternative reference evapotranspiration methods with NASA/POWER data in western Paraná, Brazil"** , by Fabrício Correia de Oliveira et al. from Federal University of Technology – Paraná, UTFPR, Santa Helena Campus.
 
-> Este repositório é parte do artigo submetido à **Revista Brasileira de Iniciação Científica (RBIC)**, do IFSP,
-> em 2026. O manuscrito não está incluído aqui enquanto estiver em avaliação.
+> This repository accompanies the article submitted to the **Revista Brasileira de Iniciação Científica (RBIC)**,
+> published by IFSP, in 2026. The manuscript is not included here while it is under review.
 
-## Resumo do estudo
+## Study summary
 
-A evapotranspiração de referência (ETo) diária foi estimada pelo método padrão de Penman-Monteith FAO 56 (PM-FAO56) e
-por seis métodos alternativos (Hargreaves-Samani, Hargreaves-Samani calibrado regionalmente – GHS, Camargo, Turc,
-Priestley-Taylor e Makkink) em dez municípios de clima Cfa do oeste do Paraná, com séries diárias do NASA/POWER de
-1995 a 2025. Os métodos foram comparados ao PM-FAO56 por RMSE, MAE, viés, NSE, r, d e pelo índice c de Camargo e
-Sentelhas.
+Daily reference evapotranspiration (ETo) was estimated using the standard FAO-56 Penman-Monteith method (PM-FAO56) and
+six alternative methods (Hargreaves-Samani, regionally calibrated Hargreaves-Samani – GHS, Camargo, Turc,
+Priestley-Taylor, and Makkink) for ten municipalities with Cfa climate in western Paraná, Brazil, using NASA/POWER
+daily series from 1995 to 2025. The methods were compared against PM-FAO56 using RMSE, MAE, bias, NSE, r, d, and the
+Camargo and Sentelhas performance index c.
 
-| Método | RMSE (mm d⁻¹) | Viés (mm d⁻¹) | NSE | c | Desempenho |
+| Method | RMSE (mm d⁻¹) | Bias (mm d⁻¹) | NSE | c | Performance |
 |---|---|---|---|---|---|
-| Turc | 0,49 | 0,00 | 0,912 | 0,936 | Ótimo |
-| Priestley-Taylor | 0,65 | 0,27 | 0,837 | 0,918 | Ótimo |
-| Makkink | 0,82 | −0,62 | 0,747 | 0,881 | Ótimo |
-| Hargreaves-Samani | 0,86 | 0,28 | 0,722 | 0,822 | Muito bom |
-| GHS | 1,23 | 0,87 | 0,409 | 0,750 | Bom |
-| Camargo | 1,19 | −0,54 | 0,477 | 0,629 | Mediano |
+| Turc | 0.49 | 0.00 | 0.912 | 0.936 | Excellent |
+| Priestley-Taylor | 0.65 | 0.27 | 0.837 | 0.918 | Excellent |
+| Makkink | 0.82 | −0.62 | 0.747 | 0.881 | Excellent |
+| Hargreaves-Samani | 0.86 | 0.28 | 0.722 | 0.822 | Very good |
+| GHS | 1.23 | 0.87 | 0.409 | 0.750 | Good |
+| Camargo | 1.19 | −0.54 | 0.477 | 0.629 | Fair |
 
-Médias das oito séries meteorológicas independentes (Foz do Iguaçu, Medianeira e São Miguel do Iguaçu ocupam a mesma
-célula da grade do NASA/POWER). Valores completos em `resultados/tabelas/desempenho_regional.csv`.
+Means of the eight independent meteorological series (Foz do Iguaçu, Medianeira, and São Miguel do Iguaçu fall within
+the same NASA/POWER grid cell). Full values in `resultados/tabelas/desempenho_regional.csv`.
 
-## Como executar
+## How to run
 
-**No Google Colab:** clique no selo *Abrir no Colab* acima e use *Ambiente de execução > Executar tudo*. O notebook
-instala as dependências e baixa todos os dados (NASA/POWER, malhas do IBGE e Natural Earth).
+**On Google Colab:** click the *Open in Colab* badge above and use *Runtime > Run all*. The notebook installs the
+dependencies and downloads all data (NASA/POWER, IBGE boundaries, and Natural Earth).
 
-**Localmente:**
+**Locally:**
 
 ```bash
 git clone https://github.com/fcoliveira-utfpr/ETo_oeste_pr.git
@@ -46,42 +44,42 @@ pip install -r requirements.txt
 jupyter notebook analise_RBIC.ipynb
 ```
 
-Os dados já baixados estão em `resultados/dados/`; para baixá-los novamente, defina `FORCAR_DOWNLOAD = True` na
-primeira célula de código.
+Previously downloaded data are stored in `resultados/dados/`; to download them again, set `FORCAR_DOWNLOAD = True` in
+the first code cell.
 
-## Organização dos arquivos
+## File organization
 
 ```mermaid
 graph LR
     NB["analise_RBIC.ipynb"]
-    subgraph ENT["Entradas (resultados/dados)"]
-        POW["power_SIGLA.csv<br/>séries diárias NASA/POWER (10)"]
+    subgraph ENT["Inputs (resultados/dados)"]
+        POW["power_SIGLA.csv<br/>NASA/POWER daily series (10)"]
         MUN["municipios.csv"]
         GEO["pr_municipios.geojson<br/>uf.geojson · ne_lakes.zip"]
         META["metadados_download.json"]
     end
-    subgraph SAI["Saídas"]
+    subgraph SAI["Outputs"]
         ETO["resultados/dados/<br/>eto_diaria_municipios.csv.gz"]
         TAB["resultados/tabelas/*.csv"]
         FIG["figuras/*.png"]
     end
-    API(["API NASA/POWER<br/>IBGE · Natural Earth"]) -->|download| POW & GEO
+    API(["NASA/POWER API<br/>IBGE · Natural Earth"]) -->|download| POW & GEO
     POW & MUN & GEO --> NB
     NB --> ETO & TAB & FIG
-    PKG(["agrometeorologiapy 0.3.0"]) -.->|cálculo da ETo| NB
+    PKG(["agrometeorologiapy 0.3.0"]) -.->|ETo computation| NB
 ```
 
 ```
 ETo_oeste_pr/
-├── analise_RBIC.ipynb             notebook completo da análise
+├── analise_RBIC.ipynb             full analysis notebook
 ├── requirements.txt
 ├── resultados/
 │   ├── dados/
-│   │   ├── municipios.csv          municípios, código IBGE, coordenadas e altitude
-│   │   ├── power_CAS.csv ... power_TOL.csv   séries diárias do NASA/POWER (1995-2025)
-│   │   ├── metadados_download.json  versão da API, fontes e data de acesso
-│   │   ├── eto_diaria_municipios.csv.gz      variáveis e ETo diária por método
-│   │   └── pr_municipios.geojson, uf.geojson, ne_lakes.zip   bases do mapa
+│   │   ├── municipios.csv          municipalities, IBGE code, coordinates, and elevation
+│   │   ├── power_CAS.csv ... power_TOL.csv   NASA/POWER daily series (1995-2025)
+│   │   ├── metadados_download.json  API version, sources, and access date
+│   │   ├── eto_diaria_municipios.csv.gz      daily variables and ETo by method
+│   │   └── pr_municipios.geojson, uf.geojson, ne_lakes.zip   map base layers
 │   └── tabelas/
 │       ├── desempenho_regional.csv, desempenho_regional_amplitude.csv
 │       ├── desempenho_por_municipio.csv
@@ -91,54 +89,54 @@ ETo_oeste_pr/
 │       ├── vento_desempenho_series_independentes.csv, vento_desempenho_testes.csv
 │       ├── sensibilidade_vento_WS2M.csv
 │       └── resumo_numeros.json
-└── figuras/                        figuras do artigo (PNG, 300 dpi)
+└── figuras/                        article figures (PNG, 300 dpi)
 ```
 
-## Dicionário de dados
+## Data dictionary
 
-**`power_SIGLA.csv`** (NASA/POWER, comunidade Agroclimatologia, uma linha por dia)
+**`power_SIGLA.csv`** (NASA/POWER, Agroclimatology community, one row per day)
 
-| Coluna | Descrição | Unidade |
+| Column | Description | Unit |
 |---|---|---|
-| `T2M_MAX`, `T2M_MIN` | temperaturas máxima e mínima do ar a 2 m | °C |
-| `RH2M` | umidade relativa do ar a 2 m | % |
-| `PRECTOTCORR` | precipitação corrigida | mm d⁻¹ |
-| `ALLSKY_SFC_SW_DWN` | radiação solar global | MJ m⁻² d⁻¹ |
-| `TOA_SW_DWN` | radiação no topo da atmosfera | MJ m⁻² d⁻¹ |
-| `WS2M`, `WS10M`, `WS50M` | velocidade do vento nativa a 2, 10 e 50 m | m s⁻¹ |
-| `WSC` | velocidade do vento corrigida para 10 m sobre grama (`airportgrass`) | m s⁻¹ |
+| `T2M_MAX`, `T2M_MIN` | maximum and minimum air temperature at 2 m | °C |
+| `RH2M` | relative humidity at 2 m | % |
+| `PRECTOTCORR` | corrected precipitation | mm d⁻¹ |
+| `ALLSKY_SFC_SW_DWN` | global solar radiation | MJ m⁻² d⁻¹ |
+| `TOA_SW_DWN` | top-of-atmosphere radiation | MJ m⁻² d⁻¹ |
+| `WS2M`, `WS10M`, `WS50M` | native wind speed at 2, 10, and 50 m | m s⁻¹ |
+| `WSC` | wind speed corrected to 10 m over grass (`airportgrass`) | m s⁻¹ |
 
-**`eto_diaria_municipios.csv.gz`** (uma linha por município e dia)
+**`eto_diaria_municipios.csv.gz`** (one row per municipality and day)
 
-| Coluna | Descrição |
+| Column | Description |
 |---|---|
-| `Tmax`, `Tmin`, `Tmed`, `UR`, `P`, `Rs` | variáveis meteorológicas de entrada |
-| `u2` | vento a 2 m obtido de `WSC` pela FAO-56 (Eq. 47) |
-| `Ra`, `Ra_POWER` | radiação no topo da atmosfera astronômica (usada) e do NASA/POWER |
-| `Rso`, `BOC`, `BOL`, `Rn` | radiação de céu claro, balanços de ondas curtas e longas e saldo de radiação |
-| `es`, `ea`, `Delta`, `gamma` | pressões de vapor, declividade da curva de saturação e constante psicrométrica |
-| `PM`, `PM_rad`, `PM_aero` | ETo pelo PM-FAO56 e suas parcelas radiativa e aerodinâmica (mm d⁻¹) |
-| `HS`, `GHS`, `Cam`, `Tur`, `PT`, `Mak` | ETo pelos métodos alternativos (mm d⁻¹) |
+| `Tmax`, `Tmin`, `Tmed`, `UR`, `P`, `Rs` | input meteorological variables |
+| `u2` | wind speed at 2 m derived from `WSC` using FAO-56 (Eq. 47) |
+| `Ra`, `Ra_POWER` | top-of-atmosphere radiation: astronomical (used) and NASA/POWER |
+| `Rso`, `BOC`, `BOL`, `Rn` | clear-sky radiation, net shortwave and longwave balances, and net radiation |
+| `es`, `ea`, `Delta`, `gamma` | vapor pressures, slope of the saturation vapor pressure curve, and psychrometric constant |
+| `PM`, `PM_rad`, `PM_aero` | PM-FAO56 ETo and its radiative and aerodynamic terms (mm d⁻¹) |
+| `HS`, `GHS`, `Cam`, `Tur`, `PT`, `Mak` | ETo from the alternative methods (mm d⁻¹) |
 
-> Observação: a coordenada de Foz do Iguaçu usada na análise (−25,4708; −54,4824) situa-se no município vizinho de
-> Santa Terezinha de Itaipu, na mesma célula da grade do NASA/POWER (detalhes em `municipios.csv`).
+> Note: the Foz do Iguaçu coordinate used in the analysis (−25.4708; −54.4824) lies in the neighboring municipality of
+> Santa Terezinha de Itaipu, within the same NASA/POWER grid cell (details in `municipios.csv`).
 
-## Procedimentos principais
+## Main procedures
 
-- Vento a 2 m: velocidade corrigida pelo NASA/POWER para 10 m sobre grama, convertida pelo perfil logarítmico da FAO-56;
-  o `WS2M` nativo resultou em valores implausíveis (0,09 m s⁻¹ em Cascavel) e foi avaliado apenas como sensibilidade.
-- PM-FAO56 com albedo de 0,23, Δ calculado em Tmed, Rs/Rso ≤ 1 e Ra astronômica no ponto de cada município.
-- Makkink com o termo −0,12 mm d⁻¹; Camargo com F = 0,01 (temperatura média anual ≤ 23,5 °C).
-- Métricas em mm d⁻¹; desempenho regional pela média das séries meteorológicas independentes.
+- Wind at 2 m: NASA/POWER wind speed corrected to 10 m over grass, converted with the FAO-56 logarithmic profile;
+  native `WS2M` produced implausible values (0.09 m s⁻¹ in Cascavel) and was evaluated only as a sensitivity analysis.
+- PM-FAO56 with albedo of 0.23, Δ computed at Tmed, Rs/Rso ≤ 1, and astronomical Ra at each municipality's location.
+- Makkink with the −0.12 mm d⁻¹ term; Camargo with F = 0.01 (mean annual temperature ≤ 23.5 °C).
+- Metrics in mm d⁻¹; regional performance computed as the mean of the independent meteorological series.
 
-## Referências dos dados e do software
+## Data and software references
 
 - NASA Langley Research Center. POWER Project – Daily API v2.10.0. https://power.larc.nasa.gov/
-- Oliveira, F. C. agrometeorologiapy: fórmulas de agrometeorologia em Python, v. 0.3.0.
+- Oliveira, F. C. agrometeorologiapy: agrometeorology formulas in Python, v. 0.3.0.
   https://pypi.org/project/agrometeorologiapy/
-- IBGE. Malhas territoriais (API de malhas). https://servicodados.ibge.gov.br/
+- IBGE. Territorial boundaries (Malhas API). https://servicodados.ibge.gov.br/
 - Natural Earth. Lakes and reservoirs, 1:10m. https://www.naturalearthdata.com/
 
-## Contato
+## Contact
 
-Fabrício Correia de Oliveira – fcoliveira@utfpr.edu.br – UTFPR, Câmpus Santa Helena
+Fabrício Correia de Oliveira – fcoliveira@utfpr.edu.br – UTFPR, Santa Helena Campus
