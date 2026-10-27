@@ -7,9 +7,6 @@
 
 Data, code, and results for the article **"Performance of alternative reference evapotranspiration methods with NASA/POWER data in western Paraná, Brazil"** , by Fabrício Correia de Oliveira et al. from Federal University of Technology – Paraná, UTFPR, Santa Helena Campus.
 
-> This repository accompanies the article submitted to the **Revista Brasileira de Iniciação Científica (RBIC)**,
-> published by IFSP, in 2026. The manuscript is not included here while it is under review.
-
 ## Study summary
 
 Daily reference evapotranspiration (ETo) was estimated using the standard FAO-56 Penman-Monteith method (PM-FAO56) and
